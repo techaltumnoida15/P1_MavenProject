@@ -1,0 +1,104 @@
+Xpath:
+
+Relative:
+
+//HTML-TAG[@att='value']
+
+//img[@class='navbar-btn__icon']
+
+//*[@class='navbar-btn__icon']
+
+//img[@alt='Login']
+
+========================================
+
+If there are more than 1 element on page of same xpath
+
+(//img[@class='navbar-btn__icon'])[2]
+
+=======================================
+
+//HTML-TAG[text()='txtVal']
+
+//a[text()='Partner With Us']
+
+========================================
+
+To navigate next child element = "/"
+
+//div[@id='mynav']
+
+//div[@id='mynav']/ul/li[5]
+
+========================================
+
+Contains
+
+//div[contains(@class,'collapse navbar-collapse')]
+
+//*[@id="mynav"]
+
+/html/body/div[1]/div/div/nav/div[2]
+
+========================================
+
+CSS Selector
+
+css = HTML-TAG[att='val']
+
+div[id='mynav']'
+img[class='navbar-btn__icon']
+input[class='btn btn-lg btn-block btn-default btn-search']
+
+-----------------------------------
+
+If ID is given in HTML code
+
+css = HTML-TAG#ID
+
+div#mynav
+
+----------------------------------
+
+If CLASS is given in HTML code
+
+css = HTML-TAG.CLASS
+
+img.navbar-btn__icon
+
+
+NOTE: If space is given in between[ID, CLASS] then fillup this space by a "."
+
+
+input.btn.btn-lg.btn-block.btn-default.btn-search
+
+
+======================================
+
+Navigate to next child = use '>'
+
+div[id='mynav']
+
+
+div[id='mynav'] > ul > li
+
+
+To navigate to nth child
+
+div[id='mynav'] > ul > li:nth-child(3)
+
+div[id='mynav'] > ul > li + li + li
+
+=======================================
+
+
+StartsWith
+
+div[class^='collapse navbar-collapse']
+
+EndsWith
+
+div[class$='order-3 dual-collapse2']
+
+Contains
+div[class*='navbar-collapse w-100 order-3 dual']
