@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="52383" started-at="2021-03-20T12:52:54 IST" finished-at="2021-03-20T12:53:47 IST">
+  <suite name="Suite1" duration-ms="47338" started-at="2021-03-23T10:50:51 IST" finished-at="2021-03-23T10:51:39 IST">
     <groups>
     </groups>
-    <test name="Regression1" duration-ms="52383" started-at="2021-03-20T12:52:54 IST" finished-at="2021-03-20T12:53:47 IST">
+    <test name="Regression1" duration-ms="47338" started-at="2021-03-23T10:50:51 IST" finished-at="2021-03-23T10:51:39 IST">
       <class name="org.roomsoom.com.P1_Open_URL">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.roomsoom.com.P1_Open_URL@15d0c81b]" name="openBrowser" is-config="true" duration-ms="23418" started-at="2021-03-20T12:52:54 IST" finished-at="2021-03-20T12:53:18 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.roomsoom.com.P1_Open_URL@3712b94]" name="openBrowser" is-config="true" duration-ms="13888" started-at="2021-03-23T10:50:51 IST" finished-at="2021-03-23T10:51:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="search()[pri:0, instance:org.roomsoom.com.P1_Open_URL@15d0c81b]" name="search" duration-ms="28032" started-at="2021-03-20T12:53:18 IST" finished-at="2021-03-20T12:53:46 IST">
+        <test-method status="PASS" signature="search()[pri:0, instance:org.roomsoom.com.P1_Open_URL@3712b94]" name="search" duration-ms="32321" started-at="2021-03-23T10:51:06 IST" finished-at="2021-03-23T10:51:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.roomsoom.com.P1_Open_URL@15d0c81b]" name="closeBrowser" is-config="true" duration-ms="858" started-at="2021-03-20T12:53:46 IST" finished-at="2021-03-20T12:53:47 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.roomsoom.com.P1_Open_URL@3712b94]" name="closeBrowser" is-config="true" duration-ms="923" started-at="2021-03-23T10:51:38 IST" finished-at="2021-03-23T10:51:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
