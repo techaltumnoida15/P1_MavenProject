@@ -2,6 +2,8 @@ package org.roomsoom.com;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
@@ -12,14 +14,31 @@ public class BaseClass {
 	public WebDriver driver;
 	
 	@BeforeTest
-	public void openBrowser() {
+	public void openBrowser() throws Exception {
+		String browserName = "Firefox";
 		
-		String projectPath = System.getProperty("user.dir");
-		System.out.println(projectPath);
-		
+		//String projectPath = System.getProperty("user.dir");
+		//System.out.println(projectPath);
 		//System.setProperty("webdriver.chrome.driver",  projectPath + "\\browserDrivers\\chromedriver.exe");
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		
+		if(browserName.equalsIgnoreCase("chrome")) {
+			//Open Chrome
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+		}
+		else if(browserName.equalsIgnoreCase("firefox")) {
+			//Open FF
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+		}
+		else if(browserName.equalsIgnoreCase("ie")) {
+			//Open IE
+			WebDriverManager.iedriver().setup();
+			driver = new InternetExplorerDriver();
+		}
+		else {
+			throw new Exception("This browser is not founnd.");
+		}
 		
 		driver.manage().window().maximize();
 		

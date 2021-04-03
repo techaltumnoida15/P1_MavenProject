@@ -4,7 +4,9 @@
   
   <test name="Regression1">
     <classes>
-      <class name="org.roomsoom.com.P1_Open_URL"/>
+      <!-- <class name="org.roomsoom.com.P1_Open_URL"/> -->
+      <!-- <class name="practice.UseKeyboard"/> -->
+      <class name="practice.MouseOver"/>
     </classes>
   </test>
 
