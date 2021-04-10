@@ -35,4 +35,5 @@ public class ClassA3 {
 		
 		ClassA3 obj2 = new ClassA3(3);
 	}
+
 }

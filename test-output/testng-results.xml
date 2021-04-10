@@ -2,6 +2,22 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
+  <suite name="Suite1" duration-ms="11252" started-at="2021-03-27T12:58:58 IST" finished-at="2021-03-27T12:59:09 IST">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="11252" started-at="2021-03-27T12:58:58 IST" finished-at="2021-03-27T12:59:09 IST">
+      <class name="org.roomsoom.com.P1_Open_URL">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.roomsoom.com.P1_Open_URL@3712b94]" name="openBrowser" is-config="true" duration-ms="2304" started-at="2021-03-27T12:58:58 IST" finished-at="2021-03-27T12:59:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="search()[pri:0, instance:org.roomsoom.com.P1_Open_URL@3712b94]" name="search" duration-ms="8126" started-at="2021-03-27T12:59:00 IST" finished-at="2021-03-27T12:59:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.roomsoom.com.P1_Open_URL@3712b94]" name="closeBrowser" is-config="true" duration-ms="750" started-at="2021-03-27T12:59:09 IST" finished-at="2021-03-27T12:59:09 IST">
+=======
   <suite name="Default suite" duration-ms="15743" started-at="2021-04-03T11:35:38 IST" finished-at="2021-04-03T11:35:54 IST">
     <groups>
     </groups>
@@ -78,6 +94,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- useKeyboardTest -->
         <test-method status="PASS" signature="closeBrowser()[pri:0, instance:practice.UseKeyboard@6c49835d]" name="closeBrowser" is-config="true" duration-ms="988" started-at="2021-04-03T11:35:53 IST" finished-at="2021-04-03T11:35:54 IST">
+>>>>>>> af3ebd8320ee7e7f202f48389f72e58301655f09
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
