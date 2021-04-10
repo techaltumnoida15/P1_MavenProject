@@ -1,5 +1,7 @@
 package org.roomsoom.com;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -41,6 +43,13 @@ public class BaseClass {
 		}
 		
 		driver.manage().window().maximize();
+		
+		//imp wait
+		//driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().setScriptTimeout(10, TimeUnit.MINUTES);
+		
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		
 		
 	}
 	
