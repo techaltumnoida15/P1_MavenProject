@@ -18,6 +18,7 @@ public class MouseOver extends BaseClass{
 		
 		//Thread.sleep(5000);        //Get rid of this wait by using imp/exp wait
 		
+		//Example of Explicit wait
 		Wait<WebDriver> wait = new WebDriverWait(driver, 7);   //Timeout in explicit wait is in SECONDS by default
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[text()='More']")));
 		

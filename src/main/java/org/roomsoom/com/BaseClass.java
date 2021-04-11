@@ -17,7 +17,7 @@ public class BaseClass {
 	
 	@BeforeTest
 	public void openBrowser() throws Exception {
-		String browserName = "Firefox";
+		String browserName = "chrome";
 		
 		//String projectPath = System.getProperty("user.dir");
 		//System.out.println(projectPath);
