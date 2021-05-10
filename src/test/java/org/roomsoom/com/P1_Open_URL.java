@@ -10,7 +10,7 @@ public class P1_Open_URL extends BaseClass {
 		
 		// Test case log
 		
-		driver.get("https://www.roomsoom.com/");
+		DriverManager.getDriver().get("https://www.roomsoom.com/");
 		
 		Thread.sleep(2000);
 		

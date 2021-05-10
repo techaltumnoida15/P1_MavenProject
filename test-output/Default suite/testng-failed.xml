@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.UseKeyboard">
+      <class name="org.roomsoom.com.P3_Roomsoom_Admin_Login_CheckTest">
         <methods>
+          <include name="geturl"/>
           <include name="closeBrowser"/>
-          <include name="useKeyboardTest"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- practice.UseKeyboard -->
+      </class> <!-- org.roomsoom.com.P3_Roomsoom_Admin_Login_CheckTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

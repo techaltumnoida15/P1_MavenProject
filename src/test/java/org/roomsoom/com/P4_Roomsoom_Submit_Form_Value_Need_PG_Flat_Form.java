@@ -12,17 +12,23 @@ public class P4_Roomsoom_Submit_Form_Value_Need_PG_Flat_Form extends BaseClass {
 	public void saveformValue() throws InterruptedException {
 		
 		//Open URL
-		
-		
-
-		
 		driver.get("https://www.roomsoom.com/need-sharing-privaterooms-flats");
 		
 		Thread.sleep(9000);
 		
 		// Get the WebElement corresponding to the Name
 				WebElement u_name = driver.findElement(By.name("u_name"));
-		
+				
+				
+				//DriverManager.getDriver().findElement(By.id("abc")).sendKeys("Java");
+				//sendkeys(By.id("bac"), "Java")
+				
+				
+				//DriverManager.getDriver().findElement(By.xpath("//a[class='abc']")).click();
+				//click("By.xpath(\"//a[class='abc']\"");
+				
+				
+				//Dynamic Wait - Real Examples
 		
 		// Get the WebElement corresponding to the Email
 				WebElement u_email = driver.findElement(By.name("u_email"));

@@ -7,8 +7,8 @@ public class P2_GetTitle extends BaseClass{
 	@Test
 	public void getUrl() {
 		
-		driver.get("https://www.roomsoom.com/");
-		String sitetile = driver.getTitle();
+		DriverManager.getDriver().get("https://www.roomsoom.com/");
+		String sitetile = DriverManager.getDriver().getTitle();
 		System.out.println(sitetile);
 	}
 

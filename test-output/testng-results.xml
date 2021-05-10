@@ -2,24 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="50052" started-at="2021-04-11T12:05:20 IST" finished-at="2021-04-11T12:06:10 IST">
+  <suite name="Suite1" duration-ms="21342" started-at="2021-05-09T18:39:56 IST" finished-at="2021-05-09T18:40:17 IST">
     <groups>
     </groups>
-    <test name="Regression1" duration-ms="50052" started-at="2021-04-11T12:05:20 IST" finished-at="2021-04-11T12:06:10 IST">
-      <class name="org.roomsoom.com.HandleMultiWindows">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.roomsoom.com.HandleMultiWindows@6c49835d]" name="openBrowser" is-config="true" duration-ms="3131" started-at="2021-04-11T12:05:20 IST" finished-at="2021-04-11T12:05:23 IST">
+    <test name="Regression1" duration-ms="21342" started-at="2021-05-09T18:39:56 IST" finished-at="2021-05-09T18:40:17 IST">
+      <class name="org.project.tests.InitiateSearchTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.project.tests.InitiateSearchTest@72b6cbcc]" name="openBrowser" is-config="true" duration-ms="13565" started-at="2021-05-09T18:39:56 IST" finished-at="2021-05-09T18:40:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="handleMultipleBrowserWindows()[pri:0, instance:org.roomsoom.com.HandleMultiWindows@6c49835d]" name="handleMultipleBrowserWindows" duration-ms="46880" started-at="2021-04-11T12:05:23 IST" finished-at="2021-04-11T12:06:10 IST">
+        <test-method status="PASS" signature="initiateSearchRoundTrip()[pri:0, instance:org.project.tests.InitiateSearchTest@72b6cbcc]" name="initiateSearchRoundTrip" duration-ms="4302" started-at="2021-05-09T18:40:09 IST" finished-at="2021-05-09T18:40:14 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleMultipleBrowserWindows -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.roomsoom.com.HandleMultiWindows@6c49835d]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-04-11T12:06:10 IST" finished-at="2021-04-11T12:06:10 IST">
+        </test-method> <!-- initiateSearchRoundTrip -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:org.project.tests.InitiateSearchTest@72b6cbcc]" name="closeBrowser" is-config="true" duration-ms="3424" started-at="2021-05-09T18:40:14 IST" finished-at="2021-05-09T18:40:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=initiateSearchRoundTrip status=SUCCESS method=InitiateSearchTest.initiateSearchRoundTrip()[pri:0, instance:org.project.tests.InitiateSearchTest@72b6cbcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- org.roomsoom.com.HandleMultiWindows -->
+      </class> <!-- org.project.tests.InitiateSearchTest -->
     </test> <!-- Regression1 -->
   </suite> <!-- Suite1 -->
 </testng-results>

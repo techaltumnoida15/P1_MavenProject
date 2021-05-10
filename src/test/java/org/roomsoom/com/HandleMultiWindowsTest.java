@@ -6,18 +6,20 @@ import java.util.List;
 import java.util.Set;
 
 import org.testng.annotations.Test;
+import org.utilities.ReadPropFile;
 
-public class HandleMultiWindows extends BaseClass{
+public class HandleMultiWindowsTest extends BaseClass{
 
 	@Test
 	public void handleMultipleBrowserWindows() throws Exception {
-		driver.get("http://www.naukri.com");
+		DriverManager.getDriver().get(ReadPropFile.getValue("url"));
+		
 		Thread.sleep(5000);
 		
 		//Naukri - Parent
 		// 2 Popup = Browser Window
 		
-		Set<String> myS = driver.getWindowHandles();
+		Set<String> myS = DriverManager.getDriver().getWindowHandles();
 		System.out.println("Total windows are = " + myS.size());
 		
 		List<String> myL = new ArrayList<>();
@@ -27,10 +29,10 @@ public class HandleMultiWindows extends BaseClass{
 			myL.add(Itr.next());
 		}
 		
-		driver.switchTo().window(myL.get(2));
+		DriverManager.getDriver().switchTo().window(myL.get(2));
 		
-		System.out.println(driver.getTitle());
-		driver.close();
+		System.out.println(DriverManager.getDriver().getTitle());
+		DriverManager.getDriver().close();
 	
 		//Hash map, Hash table = Assignment  M.Imp
 	
