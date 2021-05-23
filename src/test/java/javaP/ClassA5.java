@@ -38,7 +38,7 @@ public class ClassA5 {
 	        b = a - b; 
 	        a = a - b;   
 	        System.out.println("before swapping numbers: "); 
-	        System.out.println("a is: "+a);
+	        //System.out.println("a is: "+a);
 	        System.out.println("b is: "+b);
 		
 	}
